@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>LogIntelligence Simple SlackLogger</Title>
+    <Description>The package provides a robust and easy-to-use logging solution that enables .NET applications to send log messages directly to a Slack channel using incoming webhooks. Designed with flexibility and simplicity in mind, it allows developers to effortlessly integrate real-time logging into their applications, ensuring that critical information is always at their fingertips.</Description>
+    <PackageProjectUrl>https://www.logint.ro</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

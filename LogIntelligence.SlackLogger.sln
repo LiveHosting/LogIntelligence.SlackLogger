@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CED4167C-A2BA-4105-80CF-C6DB39F10DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D59A8B8E-45DC-40B8-B38C-BA085B262200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ADFDBDD2-826A-48B2-88EB-9290DEC74292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogIntelligence.SlackLogger", "src\LogIntelligence.SlackLogger\LogIntelligence.SlackLogger.csproj", "{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIntelligence.SlackLoggerInMemoryQueue", "LogIntelligence.SlackLoggerInMemoryQueue\LogIntelligence.SlackLoggerInMemoryQueue.csproj", "{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages", "samples\LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages\LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages.csproj", "{E1D5F8C4-6446-4D15-A263-9C896E601E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIntelligence.SlackLogger.Tests", "tests\LogIntelligence.SlackLogger.Tests\LogIntelligence.SlackLogger.Tests.csproj", "{6F9AD29F-4540-4925-8CF1-2D4B6697A370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9AD29F-4540-4925-8CF1-2D4B6697A370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9AD29F-4540-4925-8CF1-2D4B6697A370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9AD29F-4540-4925-8CF1-2D4B6697A370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9AD29F-4540-4925-8CF1-2D4B6697A370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA} = {CED4167C-A2BA-4105-80CF-C6DB39F10DED}
+		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E} = {CED4167C-A2BA-4105-80CF-C6DB39F10DED}
+		{E1D5F8C4-6446-4D15-A263-9C896E601E3C} = {ADFDBDD2-826A-48B2-88EB-9290DEC74292}
+		{6F9AD29F-4540-4925-8CF1-2D4B6697A370} = {D59A8B8E-45DC-40B8-B38C-BA085B262200}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC10189C-710F-4CD3-94A6-81618BD963AE}
+	EndGlobalSection
+EndGlobal
