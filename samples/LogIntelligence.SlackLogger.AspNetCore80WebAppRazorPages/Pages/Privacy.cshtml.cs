@@ -7,6 +7,8 @@ namespace LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages.Pages
     {
         private readonly ILogger<PrivacyModel> _logger;
 
+        public int? AbsentPropertyValue { get; set; }
+
         public PrivacyModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
@@ -17,5 +19,4 @@ namespace LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages.Pages
             _logger.LogInformation("Navigated to Privacy Page");
         }
     }
-
 }

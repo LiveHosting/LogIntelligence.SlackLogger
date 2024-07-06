@@ -11,11 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ADFD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogIntelligence.SlackLogger", "src\LogIntelligence.SlackLogger\LogIntelligence.SlackLogger.csproj", "{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIntelligence.SlackLoggerInMemoryQueue", "LogIntelligence.SlackLoggerInMemoryQueue\LogIntelligence.SlackLoggerInMemoryQueue.csproj", "{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages", "samples\LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages\LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages.csproj", "{E1D5F8C4-6446-4D15-A263-9C896E601E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages", "samples\LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages\LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages.csproj", "{E1D5F8C4-6446-4D15-A263-9C896E601E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogIntelligence.SlackLogger.Tests", "tests\LogIntelligence.SlackLogger.Tests\LogIntelligence.SlackLogger.Tests.csproj", "{6F9AD29F-4540-4925-8CF1-2D4B6697A370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIntelligence.SlackLogger.Tests", "tests\LogIntelligence.SlackLogger.Tests\LogIntelligence.SlackLogger.Tests.csproj", "{6F9AD29F-4540-4925-8CF1-2D4B6697A370}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EF645E2-8A78-4979-BFC2-1C71EDA0927B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +30,6 @@ Global
 		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D5F8C4-6446-4D15-A263-9C896E601E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,7 +44,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{43D07D13-BED2-4D0B-949F-DAB7C9362AEA} = {CED4167C-A2BA-4105-80CF-C6DB39F10DED}
-		{3D5C2BF3-997C-4247-9DD9-5636761F6E3E} = {CED4167C-A2BA-4105-80CF-C6DB39F10DED}
 		{E1D5F8C4-6446-4D15-A263-9C896E601E3C} = {ADFDBDD2-826A-48B2-88EB-9290DEC74292}
 		{6F9AD29F-4540-4925-8CF1-2D4B6697A370} = {D59A8B8E-45DC-40B8-B38C-BA085B262200}
 	EndGlobalSection
