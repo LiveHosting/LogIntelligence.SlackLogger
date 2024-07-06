@@ -35,6 +35,7 @@ namespace LogIntelligence.SlackLogger.AspNetCore80WebAppRazorPages.Pages
         public void OnPostGenerateWarning()
         {
             _logger.LogWarning("This is a warning message from the Index Page");
+            RedirectToPage();
         }
 
         public void OnPostGenerateError() 
