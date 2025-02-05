@@ -11,11 +11,13 @@ namespace LogIntelligence.SlackLogger
         {
             builder.Services.Configure<SlackLoggerOptions>(configureOptions);
             //builder.Services.AddSingleton<ILoggerProvider, SlackLoggerProvider>();
+            
             builder.Services.AddSingleton<ILoggerProvider>(serviceProvider =>
             {
                 var options = serviceProvider.GetRequiredService<IOptions<SlackLoggerOptions>>();
                 return new SlackLoggerProvider(options);
             });
+
             return builder;
         }
     }
